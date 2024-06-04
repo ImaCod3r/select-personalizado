@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-height: 300px;
+}
+
+#select-button{
+    width: 300px;
+
+    padding: 8px;
+    border: 1px solid #000;
+
+    font-weight: bold;
+    text-align: left;
+
+    background-color: #fff;
+}
+
+.items ul{
+    display: block;
+
+    margin: 8px 0 0;
+    border: 1px solid #000;
+}
+
+ul li{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+
+    text-indent: 8px;
+    list-style: none;
+}
+
+ul li:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.items ul.disabled{
+    display: none;
+}
