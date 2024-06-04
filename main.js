@@ -13,11 +13,10 @@ function showItems(){
     }
 }
 
-function changeValue(item){
-    var itemValue = item.innerText;
+select_button.addEventListener("mouseover", e => showItems());
 
+items.forEach(item => item.addEventListener("click", function(){
+    let itemValue = this.innerText;
     select_button.value = itemValue;
-}
-
-select_button.addEventListener("click", (e) => showItems());
+}))
 
