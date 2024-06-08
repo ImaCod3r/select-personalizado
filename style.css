@@ -11,6 +11,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: sans-serif;
+
+    background-color: #5f9ea0;
 }
 
 .container{
@@ -22,18 +26,22 @@ body{
 
     padding: 8px;
     border: 1px solid #000;
+    border-radius: 0.2rem;
 
     font-weight: bold;
     text-align: left;
 
-    background-color: #fff;
-}
 
+    background-color: #fff;
+    }
+    
 .items ul{
     display: block;
-
+        
     margin: 8px 0 0;
     border: 1px solid #000;
+
+    background-color: #fff;
 }
 
 ul li{
@@ -47,9 +55,12 @@ ul li{
 
 ul li:hover{
     color: #fff;
-    background-color: #000;
+    background-color: #5f9ea0;
 }
 
 .items ul.disabled{
     display: none;
 }
+
+
+/* Made by imacod3r :) */
